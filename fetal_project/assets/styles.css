@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+/* Set Open Sans as the default font for the entire app */
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: #f0f0f0; Light gray background */
+    margin: 0; /* Remove default margin for a clean layout */
+    padding: 0; /* Remove default padding */
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700; /* Bold */
+    color: #333333; /* Dark gray */
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; /* Regular */
+    color: #666666; /* Lighter gray */
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #444444;
+}
+
+/* Style for increasing checkbox size */
+.custom-checkbox input[type="checkbox"] {
+    transform: scale(1.9); /* Adjust the scale factor as needed */
+    margin-right: 10px; /* Add spacing between the checkbox and the label */
+}
